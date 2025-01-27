@@ -1,5 +1,4 @@
-./.env.production
-./.env.development
+./.env
 ./node_modules# Ignore environment files
 .env
 
