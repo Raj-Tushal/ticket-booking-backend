@@ -22,7 +22,9 @@ app.use('/api/auth',authRoute)
 app.use('/api/hotels',hotelsRoute)
 app.use('/api/rooms',roomsRoute)
 
-
+app.get('/',(req,res)=>{
+    res.send("hello")
+})
 
 app.listen(process.env.PORT,()=>{
     console.log("server is running..")
